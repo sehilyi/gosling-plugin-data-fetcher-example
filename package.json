@@ -1,0 +1,33 @@
+{
+  "name": "gosling-plugin-datafetcher-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Sehi L'Yi <sehilyi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "gosling.js": "^0.9.20",
+    "higlass": "^1.11.11",
+    "higlass-register": "^0.3.0",
+    "pixi.js": "^6.4.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^4.0.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "PORT=8000 react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
