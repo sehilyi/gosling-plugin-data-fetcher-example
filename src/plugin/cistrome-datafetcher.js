@@ -328,7 +328,7 @@ const CistromeDataFetcher = function CistromeBigWigDataFetcher(HGC, ...args) {
 }; // end function wrapper
 
 CistromeDataFetcher.config = {
-    type: "cistrome",
+    type: "bigwig",
 };
 
 export default CistromeDataFetcher;

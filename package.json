@@ -1,6 +1,7 @@
 {
   "name": "gosling-plugin-datafetcher-example",
   "version": "0.0.1",
+  "homepage": "https://sehilyi.github.io/gosling-plugin-datafetcher-example/",
   "main": "index.js",
   "author": "Sehi L'Yi <sehilyi@gmail.com>",
   "license": "MIT",
@@ -16,7 +17,8 @@
   },
   "scripts": {
     "start": "PORT=8000 react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "deploy": "yarn build; touch build/.nojekyll; gh-pages -d build -t --git git"
   },
   "browserslist": {
     "production": [
@@ -29,5 +31,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }

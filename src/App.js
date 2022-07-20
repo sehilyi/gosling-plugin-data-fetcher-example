@@ -6,7 +6,7 @@ import { default as hgRegister } from "higlass-register";
 // register the custom data-fetcher
 hgRegister(
     { dataFetcher: CistromeDataFetcher, config: CistromeDataFetcher.config },
-    { pluginType: "dataFetcher" }
+    { pluginType: "dataFetcher", force: true }
 );
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
 			tracks: [{
 				data: {
 					type: 'experimentalPlugin',
-					name: 'cistrome',
+					name: 'bigwig',
 					options: {
 						cid: 1,
 						chromSizesUrl: "https://aveit.s3.amazonaws.com/higlass/data/sequence/hg38.chrom.sizes",
