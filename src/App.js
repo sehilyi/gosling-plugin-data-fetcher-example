@@ -15,9 +15,9 @@ function App() {
 			tracks: [{
 				data: {
 					type: 'bigwig',
-					url: 'https://',
 					cid: 1,
-					chromSizesUrl: "https://aveit.s3.amazonaws.com/higlass/data/sequence/hg38.chrom.sizes"
+					chromSizesUrl: "https://aveit.s3.amazonaws.com/higlass/data/sequence/hg38.chrom.sizes",
+					url: 'https://', // TODO: default options that can be lateer removed
 				},
 				title: 'Gosling Track Based On Plugin Data-Fetcher',
 				mark: "bar",
