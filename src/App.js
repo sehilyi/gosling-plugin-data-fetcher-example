@@ -14,8 +14,7 @@ function App() {
 		<GoslingComponent spec={{
 			tracks: [{
 				data: {
-					type: 'experimentalPlugin',
-					name: 'bigwig',
+					type: 'bigwig',
 					options: {
 						cid: 1,
 						chromSizesUrl: "https://aveit.s3.amazonaws.com/higlass/data/sequence/hg38.chrom.sizes",
